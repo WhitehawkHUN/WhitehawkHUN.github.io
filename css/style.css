@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Oswald";
+    src: url('/font/Oswald-VariableFont_wght.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Oswald-light";
+    src: url('/font/static/Oswald-Light.ttf');
+    font-weight: 150;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:wght@100&display=swap');
+
+
+html{
+    text-decoration: none;
+}
+h1 {
+    color: rgb(114, 33, 107);
+    font-family: "Oswald";
+    text-align: left;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+    #bioHeader {
+    color: rgb(0, 255, 34);
+    
+    }
+    #skillsHeader {
+    color: rgb(126, 20, 20);
+    }
+
+.content {
+    color: rgb(73, 73, 73);
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-transform:none;
+    line-height: 20px;
+    padding: 10px 0 0 0;
+    border-top: dashed 1px blueviolet;
+    max-width: 90%;
+}
+.button{
+    display: inline-block;
+    width: fit-content;
+    height: 20px;
+    border: solid 1px;
+    background-color: cornflowerblue;
+    box-shadow: 3px 3px 7px;
+    position: fixed;
+    right: 20px;
+    
+    
+
+}
+#b1 {top: 40px;}
+#b2 {top: 80px;}
+#b3 {top: 120px;}
+#b4 {top: 160px;}
+
+.bold {
+    font-weight: bold;
+}
+.imgDiv {
+    background-color: rgb(214, 176, 250);
+    max-width: 90%;
+    
+}
+
+img{
+    
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+    
+}
+
+#img1 {
+    visibility: visible;
+}
